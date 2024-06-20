@@ -1,0 +1,7 @@
+<h2>Time To Make the Donuts!</h2>
+
+@for(d of DonutResult.results; track d.id){
+    <li routerLink="/{{d.id}}"> {{d.name}}</li>
+}
+
+
